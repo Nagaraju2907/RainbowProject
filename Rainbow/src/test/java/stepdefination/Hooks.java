@@ -20,8 +20,8 @@ public class Hooks extends BaseCode {
     @After
     public void tearDown(){
 
-        System.out.println("Execution Ended");
-       // driver.quit();
+        //System.out.println("Execution Ended");
+       driver.quit();
     }
 
     @BeforeStep
